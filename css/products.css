@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500&display=swap');
+body
+{
+    font-family: 'Hind', sans-serif;
+}
+section
+{
+    transition: .3s;
+}
+section .title h3
+{
+    text-transform: uppercase;
+    font-size: 24px;
+    margin:0;
+    padding:0;
+}
+section .title p
+{
+    text-transform: uppercase;
+    font-size: 24px;
+    margin:0;
+    font-size: 16px;
+    font-weight:500;
+    padding:5px 0 40px;
+}
+section .product-details 
+{
+    width:100%;
+    transition: .4s;
+    height:326px;
+    overflow: hidden;
+    z-index: 2;
+}
+section .product-details:hover
+{
+    width:100%;
+    height:326px;
+}
+section .product-details.prod1
+{
+    background:url("../img/img2.jpg");
+    background-size: cover;
+    
+}
+section .product-details.prod1:hover
+{
+    background:url('../img/img3.jpg') !important;
+    background-size: cover !important;
+}
+section .product-details.prod2
+{
+    background:url("../img/img4.jpg") ;
+    background-size: cover ;
+    
+}
+section .product-details.prod2:hover
+{
+    background:url('../img/img5.jpg') !important;
+    background-size: cover !important;
+}
+section .product-details.prod3
+{
+    background:url("../img/img6.jpg") ;
+    background-size: cover ;
+    
+}
+section .product-details.prod3:hover
+{
+    background:url('../img/img7.jpg') !important;
+    background-size: cover !important;
+}
+section .product-details.prod4
+{
+    background:url("../img/img8.jpg") ;
+    background-size: cover ;
+    
+}
+section .product-details.prod4:hover
+{
+    background:url('../img/img9.jpg') !important;
+    background-size: cover !important;
+}
+section .product-details.prod5
+{
+    background:url("../img/img10.jpg") ;
+    background-size: cover ;
+    
+}
+section .product-details.prod5:hover
+{
+    background:url('../img/img11.jpg') !important;
+    background-size: cover !important;
+}
+section .product-details.prod6
+{
+    background:url("../img/img12.jpg") ;
+    background-size: cover ;
+    
+}
+section .product-details.prod6:hover
+{
+    background:url('../img/img13.jpg') !important;
+    background-size: cover !important;
+}
+section .product-details.prod7
+{
+    background:url("../img/img14.jpg");
+    background-size: cover;
+    
+}
+section .product-details.prod7:hover
+{
+    background:url('../img/img15.jpg') !important;
+    background-size: cover !important;
+}
+section .product-details.prod8
+{
+    background:url("../img/img16.jpg");
+    background-size: cover;
+}
+section .product-details.prod8:hover
+{
+    background:url('../img/img17.jpg') !important;
+    background-size: cover !important;
+}
+section .product-details .product-image
+{
+    position: relative;
+}
+section .product-details .product-image .timer
+{
+    position: absolute;
+    top: 240px;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+section .product-details .product-image .timer .date
+{
+    background-color: rgba(255,255,255,.7);
+    padding:12px;
+    text-align: center;
+    color:#007bff;
+    font-weight:600;
+    text-transform: uppercase;
+}
+section .product-details .product-image .timer .date p
+{
+    margin:0;
+}
+section .product-details .product-image .feature
+{
+    position: absolute;
+    top:7px;
+    left:8px;
+    background-color: #fdbc20;
+    border-radius: 3px;
+    padding:0 10px;
+    text-align: center;
+}
+section .product-details .product-image .feature.sale
+{
+    background-color: #f8353e;
+}
+section .product-details .product-image .feature.new
+{
+    background-color: #03a9f5;
+}
+section .product-details .product-image .feature.sale2
+{
+    left:50px;
+}
+section .product-details .product-image .feature.stock
+{
+    background-color: #191919;
+    left:118px;
+}
+section .product-details .product-image .feature.feature2
+{
+    left:71px;
+}
+section .product-details .product-image .feature span
+{
+    color:#fff;
+    font-size:10px;
+    font-weight:500;
+    text-transform: capitalize;
+    margin:0;
+    padding:0;
+}
+section .product-details .product-image .icons
+{
+    position: absolute;
+    top:10px;
+    right:10px;
+    transition: .4s;
+    opacity: 0;
+}
+section .product-details:hover .product-image .icons
+{
+    opacity: 1;
+}
+section .product-details .product-image .icons a
+{
+    text-decoration: none;
+    color:#000;
+    display: inline-block;
+    background-color: #fff;
+    width:40px;
+    height:40px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom:20px;
+    transition: .3s;
+}
+section .product-details .product-image .icons a:hover
+{
+    background-color:#007bff;
+    color:#fff;
+}
+section .product-details .product-image .icons .icon
+{
+    position: relative;
+}
+section .products 
+{
+    padding:20px 0;
+    overflow: hidden;
+    position: relative;
+    transition: .3s;
+}
+section .products a
+{
+    text-decoration: none;
+    color:#999;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+section .products .rate i
+{
+    color:#ffb503;
+    font-size: 13px;
+}
+section .products p
+{
+    text-transform: capitalize;
+    color:#191919;
+    font-size: 15px;
+    padding-top:5px;
+}
+section .products .price
+{
+    color:#f8353e;
+    font-weight: 600;
+    font-size:20px;
+}
+section .products .images
+{
+    display: flex;
+    justify-content: center;
+}
+section .products .images img
+{
+    width:40px;
+    height:40px;
+    border-radius:5px;
+    cursor: pointer;
+}
+section .products .images .img1,
+section .products .images .img2,
+.img3,.img4,.img5,.img6,.img7,.img8,.img10
+{
+    margin-right:10px;
+}
+section .products .images .img1.active,
+section .products .images .img2.active,
+.img3.active,.img4.active,.img5.active,.img6.active,.img7.active,.img8.active,.img10.active
+{
+    border:2px solid #007bff;
+    border-radius: 5px;
+}
+section .products .sizes a
+{
+    width:20px;
+    height:20px;
+    line-height: 21px;
+    margin-top:20px;
+    background: #999;
+    color:#fff;
+    margin-right: 10px;
+    display: inline-block;
+    border-radius: 2px;
+}
+section .products .sizes a.active
+{
+    background-color: #007bff;
+}
+section .products .details
+{
+    margin-top:30px;
+    transition: .3s;
+}
+section .products .add-cart
+{
+    position: relative;
+    bottom: -58px;
+    width:100%;
+    transition: .3s;
+    opacity:0;
+}
+section .btn
+{
+    text-transform: uppercase;
+    border: 0;
+    outline:none;
+    box-shadow: none;
+}
+section .col-lg-3:hover .add-cart
+{
+    bottom: 0;
+    opacity: 1;
+}
+section .col-lg-3:hover .details
+{
+    margin-top: 0;
+}
+section .col-lg-3:hover .add-cart
+{
+    bottom: 0;
+    opacity: 1;
+}
+@media all and (max-width:991px)
+{
+    section .col-lg-3
+    {
+        margin-bottom:30px;
+    }
+}

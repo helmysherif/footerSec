@@ -1,0 +1,100 @@
+footer
+{
+    padding:50px 0;
+    background-image: url(../img/img1.jpg);
+    background-size: cover;
+    color:#868686;
+}
+footer .col-lg-2 .copyright a
+{
+    color:#868686;
+    font-size: 12px;
+}
+footer .text 
+{
+    padding:20px 0;
+}
+footer .title 
+{
+    color:#fff;
+    text-transform: uppercase;
+    font-weight:600;
+    font-size:20px;
+    margin:0;
+    padding:0;
+    padding-bottom:10px;
+}
+footer .text .links 
+{   
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+footer .text .links li 
+{
+    padding:5px 0;
+}
+footer .text .links li a
+{
+    text-decoration: none;
+    color:#868686;
+    font-size: 13px;
+    text-transform: uppercase;
+    transition: .4s;
+}
+footer .text .links li a:hover
+{
+    color:#fff;
+}
+footer .text .contact
+{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+footer .text .contact li
+{
+    display: flex;
+    padding:5px 0;
+}
+footer .text .contact li p
+{
+    color:#fff;
+    text-transform: uppercase;
+    padding-right: 10px;
+    font-size: 13px;
+}
+footer .text .contact li span
+{
+    font-size: 13px;
+    text-transform: uppercase;
+}
+footer .text .contact li a
+{
+    text-decoration: none;
+    color:#fd014e;
+    font-size: 13px;
+    transition: .4s;
+}
+footer .text .contact li a:hover
+{
+    color:#fff;
+}
+footer .icons
+{
+    padding:20px 0;
+    text-align: center;
+}
+footer .icons a
+{
+   text-decoration: none;
+   color:#868686;
+   font-size: 20px;
+   display: inline-block;
+   margin-bottom:10px;
+   transition: .4s;
+}
+footer .icons a:hover
+{
+    color:#fff;
+}
